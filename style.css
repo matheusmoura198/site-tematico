@@ -1,1 +1,246 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+    background-color: #fff8ed;
+    color: #38251f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.cabecalho {
+    background-color: #9f261f;
+    color: #ffffff;
+    text-align: center;
+    padding: 22px 6%;
+}
+
+.frase-marca {
+    margin: 0;
+    color: #ffc43d;
+    font-weight: bold;
+}
+
+.cabecalho h1 {
+    margin: 4px 0;
+    font-size: 2.2em;
+    line-height: 1.2;
+}
+
+.cabecalho > p:not(.frase-marca) {
+    margin: 8px 0 18px;
+}
+
+nav a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 4px 8px;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #ffc43d;
+    color: #38251f;
+}
+
+.apresentacao {
+    background-color: #ffe3a3;
+    padding: 55px 8%;
+    text-align: center;
+}
+
+.apresentacao-conteudo {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.chamada {
+    color: #9f261f;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.apresentacao h2 {
+    color: #9f261f;
+    font-size: 2em;
+    line-height: 1.2;
+    margin: 0 0 15px;
+}
+
+.apresentacao p {
+    margin: 0 auto 20px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #9f261f;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.botao:hover,
+.botao:focus {
+    background-color: #7d1d18;
+    color: #ffffff;
+}
+
+.secao {
+    padding: 38px 6%;
+}
+
+.titulo-secao {
+    color: #9f261f;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 0 0 5px;
+}
+
+.introducao-secao {
+    text-align: center;
+    margin: 0 0 24px;
+}
+
+.lista-destaques,
+.lista-informacoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+}
+
+.cartao-destaque,
+.cartao-informacao {
+    background-color: #ffffff;
+    border: 1px solid #ecd9c7;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.cartao-destaque {
+    max-width: 320px;
+}
+
+.cartao-destaque img {
+    display: block;
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.conteudo-cartao {
+    padding: 14px 16px 17px;
+}
+
+.conteudo-cartao h3,
+.cartao-informacao h3 {
+    color: #9f261f;
+    margin: 0 0 6px;
+}
+
+.conteudo-cartao p,
+.cartao-informacao p {
+    margin: 4px 0;
+}
+
+.cardapio {
+    background-color: #fff0d2;
+}
+
+.grupo-cardapio {
+    max-width: 900px;
+    margin: 0 auto 25px;
+}
+
+.grupo-cardapio h3 {
+    background-color: #9f261f;
+    color: #ffffff;
+    margin: 0;
+    padding: 9px 14px;
+    border-radius: 6px 6px 0 0;
+}
+
+.lista-itens {
+    background-color: #ffffff;
+    padding: 0 14px;
+    border: 1px solid #ecd9c7;
+    border-top: 0;
+    border-radius: 0 0 6px 6px;
+}
+
+.item-cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px 18px;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0e5d9;
+}
+
+.item-cardapio:last-child {
+    border-bottom: 0;
+}
+
+.item-cardapio h4 {
+    margin: 0;
+    color: #38251f;
+    font-size: 1em;
+}
+
+.item-cardapio p {
+    margin: 2px 0 0;
+    font-size: 0.93em;
+}
+
+.item-cardapio strong {
+    color: #9f261f;
+    white-space: nowrap;
+}
+
+.aviso-alergia {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 12px 15px;
+    background-color: #ffe3a3;
+    border-left: 4px solid #9f261f;
+    border-radius: 4px;
+}
+
+.cartao-informacao {
+    max-width: 300px;
+    padding: 18px;
+}
+
+.rodape {
+    background-color: #9f261f;
+    color: #ffffff;
+    text-align: center;
+    padding: 22px 6%;
+}
+
+.rodape p {
+    margin: 4px 0;
+}
+
+.rodape a {
+    display: inline-block;
+    color: #ffc43d;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.rodape a:hover,
+.rodape a:focus {
+    color: #ffffff;
+}
